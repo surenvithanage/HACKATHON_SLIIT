@@ -16,7 +16,6 @@ class Header extends Component {
                         </div>
                     </div>
                 </div>
-
                 <div className="card-section search">
                     <div className="container">
                         <div className="card-block bg-white mb30">
@@ -55,7 +54,7 @@ class Header extends Component {
                                                             </div>
                                                             <div className="col-lg-3 col-md-3 col-sm-12 p-0">
                                                                 <button type="button"
-                                                                        className="btn btn-primary wrn-btn">Search
+                                                                        className="btn btn-danger wrn-btn">Search
                                                                 </button>
                                                             </div>
                                                         </div>
