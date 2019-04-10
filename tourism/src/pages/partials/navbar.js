@@ -1,6 +1,6 @@
 import React , {Component} from 'react';
 import './navbar.css';
-import {BrowserRouter as Router, Route, Link, NavLink} from 'react-router-dom';
+
 
 class Navbar extends Component{
     render() {
@@ -21,8 +21,18 @@ class Navbar extends Component{
                         <li className="nav-item ">
                             <a className="nav-link about" href="#" aria-readonly={"true"}>About Sri Lanka</a>
                         </li>
-                        <li className="nav-item ">
-                            <a className="nav-link reservation" href="#" aria-readonly={"true"}>Reservations</a>
+                        {/*<li className="nav-item ">*/}
+                            {/*<a className="nav-link reservation" href="#" aria-readonly={"true"}>Reservations</a>*/}
+                        {/*</li>*/}
+                        <li className="nav-item dropdown">
+                            <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                               data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Reservation
+                            </a>
+                            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a className="dropdown-item" href="../hotel/hotel.js"><i className="fa fa-train"></i> Hotels</a>
+                                <a className="dropdown-item" href="#"><i className="fa fa-money"></i> Currency Convertor</a>
+                            </div>
                         </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
