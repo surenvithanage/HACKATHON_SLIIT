@@ -20,8 +20,7 @@ class Places extends Component {
                                                         <h4 className="card-title">Sigiriya</h4>
                                                         <p className="card-text">This is basic card with image on top,
                                                             title, description and button.</p>
-                                                        <a href="#" className="btn btn-primary btn-sm"><i
-                                                            className="fa fa-plus"></i></a>
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -75,8 +74,7 @@ class Places extends Component {
                                                         <h4 className="card-title">Yala National Park</h4>
                                                         <p className="card-text">It’s an experience of epic proportions
                                                             that brings you up, close and personal with untamed world of wildlife.</p>
-                                                        <a href="#" className="btn btn-primary btn-sm"><i
-                                                            className="fa fa-plus"></i></a>
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -132,8 +130,7 @@ class Places extends Component {
                                                         <h4 className="card-title">Mirissa Whale Watching</h4>
                                                         <p className="card-text">See some of the oldest and the largest sea creatures, the humpback and the blue whales,
                                                             will nonchalantly  glide past you.</p>
-                                                        <a href="#" className="btn btn-primary btn-sm"><i
-                                                            className="fa fa-plus"></i></a>
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -190,8 +187,7 @@ class Places extends Component {
                                                         <h4 className="card-title">Hakgala Botanical Garden</h4>
                                                         <p className="card-text">Hakgala Botanical Garden is one of the five botanical gardens in Sri Lanka.
                                                            It is the second largest garden in Sri Lanka.</p>
-                                                        <a href="#" className="btn btn-primary btn-sm"><i
-                                                            className="fa fa-plus"></i></a>
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -247,9 +243,9 @@ class Places extends Component {
                                                                 alt="card image"/></p>
                                                         <h4 className="card-title">Knuckles Mountain Range</h4>
                                                         <p className="card-text">The Knuckles Mountain Range lies in central Sri Lanka,
-                                                            in the Districts of Matale and Kandy.  </p>
-                                                        <a href="#" className="btn btn-primary btn-sm"><i
-                                                            className="fa fa-plus"></i></a>
+                                                            in the Districts of Matale and Kandy.The range takes its name from a series of recumbent folds
+                                                        </p>
+
                                                     </div>
                                                 </div>
                                             </div>
@@ -304,9 +300,8 @@ class Places extends Component {
                                                                 alt="card image"/></p>
                                                         <h4 className="card-title">Nilaveli Beach</h4>
                                                         <p className="card-text">Nilaveli ,is a coastal resort town and suburb of the Trincomalee District,
-                                                            Sri Lanka located 16 km northwest of the city of Trincomalee. .</p>
-                                                        <a href="#" className="btn btn-primary btn-sm"><i
-                                                            className="fa fa-plus"></i></a>
+                                                            Sri Lanka located 16 km northwest of the city of Trincomalee. Nilaveli is located north-west of the Island. .</p>
+                                                      
                                                     </div>
                                                 </div>
                                             </div>
