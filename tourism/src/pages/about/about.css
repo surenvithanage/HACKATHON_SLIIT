@@ -1,0 +1,52 @@
+.paragraph{
+    color : black;
+}
+
+.b1{
+    float : left;
+    margin-left : 20px;
+    font-size : 12px;
+}
+
+p{
+    font-size : 12px;
+}
+
+.header-about{
+    margin-left : 10px;
+    margin-top : 10px;
+
+}
+
+body{
+    background-color : #fff;
+    color : black;
+}
+
+.head-about{
+    padding-left : 20px;
+    padding-bottom : 25px;
+}
+
+.About{
+    padding : 20px;
+}
+
+.about-sl{
+    margin : 10px;
+
+}
+
+.about-paragraph{
+    padding : 10px;
+}
+
+.about-image{
+    height: 600px;
+    margin-left : 50px;
+}
+
+.head-say{
+    margin-bottom : 25px;
+    padding-bottom : 20px;
+}

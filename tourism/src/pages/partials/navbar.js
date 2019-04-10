@@ -12,7 +12,6 @@ class Navbar extends Component{
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-
                 <div className="collapse navbar-collapse subnavigation" id="navbarSupportedContent" >
                     <ul className="navbar-nav mr-auto">
                         <li className="nav-item active">
@@ -40,8 +39,10 @@ class Navbar extends Component{
                                Add-On Services
                             </a>
                             <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a className="dropdown-item" href="#"><i className="fa fa-train"></i> Train</a>
-                                <a className="dropdown-item" href="#"><i className="fa fa-money"></i> Currency Convertor</a>
+                                <a className="dropdown-item" href="https://www.bbc.com/weather/0/1248991"><i className="fa fa-train"></i> Train</a>
+                                <a className="dropdown-item" href="https://www.xe.com/currencyconverter/"><i className="fa fa-money"></i> Currency Convertor</a>
+                                <a className="dropdown-item" href="http://www.visitsrilanka.net/"><i className="fa fa-car"></i> Meetings & Conference</a>
+                                <a className="dropdown-item" href="https://www.bbc.com/weather/0/1248991"><i className="fa fa-cloud"></i> Weather </a>
                             </div>
                         </li>
                         <li className="nav-item ">
@@ -76,9 +77,6 @@ class Navbar extends Component{
             </nav>
         )
     }
-
-
-
 }
 
 export  default Navbar;
